@@ -1,0 +1,121 @@
+@media only screen and (max-width: 930px) {
+    .page1_header{
+        display:flex;
+        justify-content: space-between;
+    }
+    .page1_header button{
+        display:block;
+    }
+    .page1_header ul{
+        display:none;
+        text-align:center;
+        position:fixed;
+        z-index:11;
+        top:50px;
+        left:0;
+        right:0;
+        flex-direction:column;
+        justify-content:center;
+        background-color:#040C18;
+    }
+    .page1_header ul:nth-of-type(2){
+        padding:30px 0;
+        z-index:12;
+        top:230px;
+    }
+    .page1_body{
+        display:flex;
+        flex-direction: column-reverse;
+        width:85%;
+    }
+    .page1_body-images{
+        margin-left:8%;
+    }
+
+    .page2_head{
+        display:flex;
+        flex-direction: column;
+    }
+    .page2_head div p{
+        width:10%;
+    }
+    .page2_body{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .page2_body h1{
+        width:100%;
+        margin:0;
+    }
+    .page2_body p{
+        margin:30px 0;
+    }
+    .page2_foot{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .page3_head{
+        display:flex;
+        flex-direction: column;
+        gap:30px;
+    }
+    .page3_body{
+        display:flex;
+        flex-direction: column;
+    }
+    .page3_body div{
+        margin-top:30px;
+        width:100%;
+    }
+    .page3_foot{
+        padding:15px;
+        width:91%;
+        margin:30px 0;
+    }
+    .page3_foot div p{
+        font-size:13px;
+    }
+    .page3_foot div p b{
+        font-size:15px;
+    }
+    .page3_foot button{
+        margin:7px 5px 0 0;
+        width:100px;
+        height:40px;
+        font-size:14px;
+    }
+
+    .page4_head{
+        width:100%;
+        font-size:20px;
+        margin-top:60px;
+    }
+    .page4_main{
+        display:flex;
+        flex-direction:column;
+        margin:0 15%;
+    }
+    .page4_main form:nth-of-type(1) div p b{
+        font-size:18px;
+    }
+
+    .page5_head{
+        width:80%;
+        margin:0 10%;
+    }
+    .page5_head h1{
+        font-size:38px;
+        margin-bottom:50px;
+    }
+    .page5_body{
+        grid-template-columns:33% 33% 33%; 
+    }
+    .page5_body div:nth-of-type(1) {
+        grid-column:1/4;
+        width:100%;
+    }
+    .page5_body div {
+        width:90%;
+    }
+}
